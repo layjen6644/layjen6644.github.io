@@ -34,6 +34,7 @@ main > section {
 footer {
   font-size: 10px;
   align-text: center;
+  padding: 10px;
   background-color: #7e4444;
   font-color: 14171f;
 }
