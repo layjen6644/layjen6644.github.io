@@ -1,6 +1,6 @@
 /* style rules */
 html {
-  background-color: rgb(172, 137, 104);
+  background-color: #14171f;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -9,7 +9,7 @@ header {
   font-size: 14pt;
   font-weight: 700;
   padding: 10px;
-  background-color: rgb(255, 255, 227);
+  background-color: #3b4138;
 }
 
 nav > ul > li {
@@ -20,7 +20,7 @@ nav > ul > li {
 }
 
 nav > a:hover {
-  color: blue; 
+  color: #451b20; 
 }
   
   
