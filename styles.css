@@ -12,11 +12,6 @@ header {
   background-color: #7e4444;
 }
 
-header > h1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 nav > ul > li {
   list-style-type: none;
   display: inline;
@@ -41,7 +36,7 @@ main > section {
 }
 
 main > section > h2 {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 30px;
 }
 
