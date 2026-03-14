@@ -12,7 +12,7 @@ header {
   padding: 5px 5px;
   background-color: #6d152b;
   border-radius: 5px;
-  color: #8fae93;
+  color: #f7f3eb;
 }
 
 header > h1 {
@@ -57,7 +57,7 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: #6d152b;
-  color: #8fae93;
+  color: #f7f3eb;
   border-radius: 5px;
 }
   
