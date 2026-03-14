@@ -21,7 +21,8 @@ nav > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 25px; 
-  padding: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 
 nav > ul > li > a {
