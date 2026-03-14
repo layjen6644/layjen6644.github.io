@@ -1,7 +1,7 @@
-<!-- Background -->
+/* style rules */
 body {
   background-color: rgb(172, 137, 104);
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
