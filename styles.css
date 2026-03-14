@@ -31,7 +31,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  color: #13341e;
+  color: #002f1e;
 }
 
 nav > ul > li > a:hover {
@@ -57,7 +57,7 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: #dfaf5e;
-  color: #13341e;
+  color: #002f1e;
   border-radius: 5px;
 }
   
