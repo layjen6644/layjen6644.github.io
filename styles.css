@@ -10,9 +10,9 @@ header {
   font-size: 14pt;
   font-weight: 700;
   padding: 5px 5px;
-  background-color: #dfaf5e;
+  background-color: #6d152b;
   border-radius: 5px;
-  color: f7f3eb;
+  color: #8fae93;
 }
 
 header > h1 {
@@ -31,7 +31,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  color: #3b2f2f;
+  color: #8fae93;
 }
 
 nav > ul > li > a:hover {
@@ -41,7 +41,7 @@ nav > ul > li > a:hover {
 main > section {
   padding: 10px;
   margin: 30px 15px;
-  background-color: #c2a887;
+  background-color: #dfaf5e;
   box-shadow: rgba(0,0,0,0.4) 10px 10px 10px;
   color: #3b2f2f;
   border-radius: 5px;
@@ -57,7 +57,7 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: #dfaf5e;
-  color: #f7f3eb;
+  color: #000011;
   border-radius: 5px;
 }
   
