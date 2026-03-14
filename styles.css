@@ -1,6 +1,6 @@
 /* style rules */
 html {
-  background-color: #14171f;
+  background-color: #1b1f23;
   font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -9,7 +9,7 @@ header {
   font-size: 14pt;
   font-weight: 700;
   padding: 5px 5px;
-  background-color: #7e4444;
+  background-color: #5c3838;
 }
 
 header > h1 {
@@ -32,15 +32,15 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  color: #367272;
+  color: #2e7d7d;
 }
   
 main > section {
   padding: 10px;
   margin: 30px 15px;
-  background-color: #3b4138;
+  background-color: #2f352f;
   box-shadow: rgba(255,255,255,0.1) 10px 10px 10px;
-  color: #847c6e;
+  color: #9b9588;
 }
 
 main > section > h2 {
@@ -52,8 +52,8 @@ footer {
   font-size: 12px;
   text-align: center;
   padding: 5px;
-  background-color: #7e4444;
-  color: #000000;
+  background-color: #4e2f2f;
+  color: #cfc6b6;
 }
   
   
