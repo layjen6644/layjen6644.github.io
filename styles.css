@@ -12,11 +12,11 @@ header {
   padding: 5px 5px;
   background-color: #dfaf5e;
   border-radius: 5px;
+  color: f7f3eb;
 }
 
 header > h1 {
   margin: 5px 0;
-  color: #002f1e;
 }
 
 nav > ul {
@@ -31,11 +31,11 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  color: #002f1e;
+  color: #3b2f2f;
 }
 
 nav > ul > li > a:hover {
-  color: #95424e;
+  color: #61714d;
 }
   
 main > section {
@@ -43,7 +43,7 @@ main > section {
   margin: 30px 15px;
   background-color: #c2a887;
   box-shadow: rgba(0,0,0,0.4) 10px 10px 10px;
-  color: #bd152b;
+  color: #3b2f2f;
   border-radius: 5px;
 }
 
@@ -57,7 +57,7 @@ footer {
   text-align: center;
   padding: 5px;
   background-color: #dfaf5e;
-  color: #002f1e;
+  color: #f7f3eb;
   border-radius: 5px;
 }
   
