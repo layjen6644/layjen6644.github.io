@@ -28,7 +28,7 @@ main > section {
   margin: 20px 10px;
   background-color: #3b4138;
   box-shadow: 10px 15px 15px;
-  font-color: #847c6e;
+  color: #847c6e;
 }
 
 footer {
@@ -36,7 +36,7 @@ footer {
   align-text: center;
   padding: 5px;
   background-color: #7e4444;
-  font-color: 14171f;
+  color: 14171f;
 }
   
   
