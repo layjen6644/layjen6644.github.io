@@ -2,6 +2,7 @@
 html {
   background-color: #fdfaf6;
   font-family: "Palatino Linotype", Georgia, serif;
+  border-radius: 15%;
 }
 
 header {
