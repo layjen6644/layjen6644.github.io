@@ -30,10 +30,6 @@ nav > ul > li {
   padding: 5px;
 }
 
-nav > ul > li > a {
-  color: #8fae93;
-}
-
 nav > ul > li > a:hover {
   color: #61714d;
 }
