@@ -17,6 +17,7 @@ nav > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 25px; 
+  color: #14171f;
 }
 
 nav > a:hover {
