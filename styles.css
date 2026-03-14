@@ -1,1 +1,15 @@
+<!-- Background -->
+html {
+  background-color: #AC8968;
+  font-family: Helvetica;
+}
 
+header {
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 700;
+  padding: 40px 20px;
+  background-color: #A69080;
+}
+  
+  
