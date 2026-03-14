@@ -2,7 +2,7 @@
 html {
   background-color: #fdfaf6;
   font-family: "Palatino Linotype", Georgia, serif;
-  border-radius: 15%;
+  border-radius: 5px;
 }
 
 header {
@@ -11,6 +11,7 @@ header {
   font-weight: 700;
   padding: 5px 5px;
   background-color: #dfaf5e;
+  border-radius: 5px;
 }
 
 header > h1 {
@@ -43,6 +44,7 @@ main > section {
   background-color: #c2a887;
   box-shadow: rgba(0,0,0,0.2) 10px 10px 10px;
   color: #bd152b;
+  border-radius: 5px;
 }
 
 main > section > h2 {
@@ -56,6 +58,7 @@ footer {
   padding: 5px;
   background-color: #dfaf5e;
   color: #61714d;
+  border-radius: 5px;
 }
   
   
