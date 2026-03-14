@@ -1,7 +1,7 @@
 /* style rules */
 html {
-  background-color: #1b1f23;
-  font-family: Georgia, "Times New Roman", serif;
+  background-color: #fdfaf6;
+  font-family: "Palatino Linotype", Georgia, serif;
 }
 
 header {
@@ -9,11 +9,12 @@ header {
   font-size: 14pt;
   font-weight: 700;
   padding: 5px 5px;
-  background-color: #5c3838;
+  background-color: #dfaf5e;
 }
 
 header > h1 {
   margin: 5px 0;
+  color: 61714d;
 }
 
 nav > ul {
@@ -32,15 +33,15 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  color: #2e7d7d;
+  color: #6d152b;
 }
   
 main > section {
   padding: 10px;
   margin: 30px 15px;
-  background-color: #2f352f;
+  background-color: #c2a887;
   box-shadow: rgba(255,255,255,0.1) 10px 10px 10px;
-  color: #9b9588;
+  color: #bd152b;
 }
 
 main > section > h2 {
@@ -52,8 +53,8 @@ footer {
   font-size: 12px;
   text-align: center;
   padding: 5px;
-  background-color: #4e2f2f;
-  color: #cfc6b6;
+  background-color: #dfaf5e;
+  color: #61714d;
 }
   
   
