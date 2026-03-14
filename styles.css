@@ -12,6 +12,11 @@ header {
   background-color: #7e4444;
 }
 
+header > h1 {
+  margin: 0;
+  padding; 0;
+}
+
 nav > ul > li {
   list-style-type: none;
   display: inline;
