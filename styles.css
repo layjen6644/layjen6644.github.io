@@ -47,8 +47,8 @@ main > section > h2 {
 }
 
 footer {
-  font-size: 10px;
-  align-text: center;
+  font-size: 12px;
+  text-align: center;
   padding: 5px;
   background-color: #7e4444;
   color: 14171f;
