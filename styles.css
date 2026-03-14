@@ -12,13 +12,14 @@ header {
   background-color: rgb(255, 255, 227);
 }
 
-nav ul li {
+nav > ul > li {
   horizontal-alignment: baseline;
   list-style-type: none;
   display: inline;
+  margin-right: 20px; 
 }
 
-nav a:hover {
+nav > a:hover {
   color: blue; 
 }
   
