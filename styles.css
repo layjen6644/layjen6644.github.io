@@ -12,11 +12,11 @@ header {
   padding: 5px 5px;
   background-color: #dfaf5e;
   border-radius: 5px;
-  color: 61714d;
 }
 
 header > h1 {
   margin: 5px 0;
+  color: 61714d;
 }
 
 nav > ul {
