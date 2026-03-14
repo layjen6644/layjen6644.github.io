@@ -33,7 +33,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover {
-  color: #3a8c8c;
+  color: #367272;
 }
   
 main > section {
@@ -46,7 +46,7 @@ main > section {
 
 main > section > h2 {
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 30px;  /* will adjust margin-bottom after I get content inside section */
 }
 
 footer {
