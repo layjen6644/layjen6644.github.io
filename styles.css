@@ -17,15 +17,15 @@ header > h1 {
   margin: 5px 0;
 }
 
+nav > ul {
+  margin: 10px 0;
+}
+
 nav > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 25px; 
   padding: 5px;
-}
-
-nav {
-  margin: 5px;
 }
 
 nav > ul > li > a {
@@ -45,8 +45,8 @@ main > section {
 }
 
 main > section > h2 {
-  padding-top: 5px;
-  padding-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 footer {
