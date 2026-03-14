@@ -12,10 +12,14 @@ header {
   background-color: #7e4444;
 }
 
-nav > ul > li > a {
+nav > ul > li {
   list-style-type: none;
   display: inline;
   margin-right: 25px; 
+  padding: 10px;
+}
+
+nav > ul > li > a {
   color: #14171f;
 }
 
