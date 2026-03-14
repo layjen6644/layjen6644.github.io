@@ -40,6 +40,11 @@ main > section {
   color: #847c6e;
 }
 
+main > section > h2 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
 footer {
   font-size: 10px;
   align-text: center;
