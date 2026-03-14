@@ -9,7 +9,7 @@ header {
   font-size: 14pt;
   font-weight: 700;
   padding: 5px;
-  background-color: #3b4138;
+  background-color: #7e4444;
 }
 
 nav > ul > li {
@@ -23,6 +23,19 @@ nav > a:hover {
   color: #451b20; 
 }
   
+main {
+  padding: 10px;
+  margin: 20px;
+  background-color: #3b4138;
+  box-shadow: 10px 15px 15px;
+}
+
+footer {
+  font-size: 5px;
+  align-text: center;
+  background-color: #7e4444;
+  text-color: 14171f;
+}
   
   
   
