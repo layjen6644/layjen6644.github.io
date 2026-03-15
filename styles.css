@@ -40,6 +40,9 @@ main > section {
   color: #3b2f2f;
   border-radius: 5px;
 }
+main > section > h2 {
+  margin-top: 0;
+}
 
 footer {
   font-size: 12px;
