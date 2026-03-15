@@ -45,11 +45,6 @@ main > section {
   border-radius: 5px;
 }
 
-main > section > h2 {
-  margin-top: 5px;
-  margin-bottom: 30px;  /* will adjust margin-bottom after I get content inside section */
-}
-
 footer {
   font-size: 12px;
   text-align: center;
