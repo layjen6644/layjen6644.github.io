@@ -18,10 +18,6 @@ header > h1 {
   margin: 5px 0;
 }
 
-nav > ul {
-  margin: 10px 0;
-}
-
 nav > ul > li {
   list-style-type: none;
   display: inline;
