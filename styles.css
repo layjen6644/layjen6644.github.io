@@ -14,9 +14,7 @@ header {
   color: #f7f3eb;
 }
 
-header > h1 {
-  margin: 5px 0;
-}
+
 
 nav > ul > li {
   list-style-type: none;
