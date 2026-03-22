@@ -56,6 +56,7 @@ main > section > h2 {  /* I want the text to sit closer to the top of the box */
 table {
   width: 100%;
   border-collapse: collapse;
+  padding: 10px;
 }
 
 table th, table td {
