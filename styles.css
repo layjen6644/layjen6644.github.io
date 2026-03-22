@@ -62,14 +62,7 @@ table tr, table td {
   padding: 10px;
   text-align: center;
 }
-table > caption {
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px;
-  background-color: #f7f3eb;
-  display: table-caption;
-}
-  
+
 table > thead > th {
   background-color: #6d152b;
   color: #f7f3eb;
