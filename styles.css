@@ -58,21 +58,31 @@ table {
 }
 
 table > tr {
-  border: 5px solid rgb(0,0,0,0);
+  border: 5px solid rgb(0,0,0);
   padding: 10px;
   text-align: center;
 }
 table > caption {
   font-size: 16px;
   font-weight: bold;
-  padding: 5px;
+  padding: 10px;
+  background-color: #f7f3eb;
 }
   
-table > thead {
+table > thead > th {
   background-color: #6d152b;
+  color: #f7f3eb;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
 }
 
-table > tfoot {
+table > tbody > td {
+  padding: 10px;
+  text-align: center;
+}
+
+table > tfoot > td {
   background-color: #6d152b;
   padding: 10px;
 }
