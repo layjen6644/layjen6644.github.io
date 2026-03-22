@@ -40,4 +40,25 @@ main > section {
   box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px #ccc solid;
+  padding: 12px;
+  text-align: left;
+}
+
+table > thead > th {
+  background-color: #444;
+  color: white;
+}
+
+table > tfoot > td {
+  text-align: center;
+  font-style: italic;
+  border-top: 1px solid #ccc;
+}
 
