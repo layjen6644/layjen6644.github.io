@@ -67,6 +67,7 @@ table > caption {
   font-weight: bold;
   padding: 10px;
   background-color: #f7f3eb;
+  display: table-caption;
 }
   
 table > thead > th {
