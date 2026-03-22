@@ -58,17 +58,22 @@ table {
 }
 
 table th, table td {
-  border: 5px solid rgb(0,0,0);
+  border: 2px solid rgb(0,0,0);
   padding: 10px;
   text-align: center;
+}
+table > caption {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 table > thead > tr > th {
   background-color: #6d152b;
   color: #f7f3eb;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   padding: 10px;
+  border: 2px solid rgb(0,0,0);
 }
 
 table > tbody > td {
