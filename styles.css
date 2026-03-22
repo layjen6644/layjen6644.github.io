@@ -82,7 +82,7 @@ table > tbody > td {
   font-size: 14px
 }
 
-table > tfoot > td {
+table > tfoot > tr > td {
   background-color: #6d152b;
   padding: 5px;
 }
