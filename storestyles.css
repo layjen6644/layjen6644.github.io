@@ -3,6 +3,11 @@ html {
   font-family: Arial;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main {
   max-width: 960px;
   margin-left: auto;
@@ -10,9 +15,8 @@ main {
 }
 
 main > section {
-  background-color: white;
+  background-color: #ffffff;
   padding: 20px;
   box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
 }
 
-body
