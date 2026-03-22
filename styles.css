@@ -46,6 +46,26 @@ main > section > h2 {  /* I want the text to sit closer to the top of the box */
   margin-top: 0;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table > th > td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+table > thead > th {
+  background-color: #6d152b;
+}
+
+table > tfoot > td {
+  background-color: #6d152b;
+  text-align: center;
+}
+
 footer {
   font-size: 12px;
   text-align: center;
