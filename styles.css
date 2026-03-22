@@ -26,10 +26,12 @@ nav > ul > li {
 }
 nav > ul > li > a {
   color: #f7f3eb;
+  transition: background-color 0.3s ease;
 }
 
 nav > ul > li > a:hover {
   color: #748c5e;
+  background-color: #f7f3eb;
 }
   
 main > section {
