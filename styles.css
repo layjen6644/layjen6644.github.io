@@ -63,7 +63,7 @@ table tr, table td {
   text-align: center;
 }
 
-table > thead > th {
+table > thead > tr > th {
   background-color: #6d152b;
   color: #f7f3eb;
   font-size: 14px;
