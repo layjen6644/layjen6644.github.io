@@ -1,3 +1,8 @@
+html {
+  background-color: #f2f2f2;
+  font-family: Arial;
+}
+
 main {
   max-width: 960px;
   margin-left: auto;
@@ -7,5 +12,7 @@ main {
 main > section {
   background-color: white;
   padding: 20px;
-  box-shadow:
-  
+  box-shadow: rgba(0,0,0,0.1) 0px 0px 10px;
+}
+
+body
