@@ -65,6 +65,6 @@ table > thead > tr > th {
 table > tfoot > tr > td {
   text-align: center;
   font-style: italic;
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #ccc;
 }
 
