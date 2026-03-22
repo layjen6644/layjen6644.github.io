@@ -82,7 +82,7 @@ table > tbody > td {
   text-align: center;
   font-size: 14px
 }
-
+/* I don't want text inside the footer */
 table > tfoot > tr > td {
   background-color: #6d152b;
   height: 5px;
