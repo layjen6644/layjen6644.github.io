@@ -8,9 +8,15 @@ body {
   padding: 0;
 }
 
-nav > ul > li {
+nav > ul {
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
   margin: 0 15px;
 }
 
