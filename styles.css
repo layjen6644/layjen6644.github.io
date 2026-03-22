@@ -62,7 +62,12 @@ table > th > td {
   padding: 10px;
   text-align: center;
 }
-
+caption {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px;
+}
+  
 table > thead {
   background-color: #6d152b;
 }
