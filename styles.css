@@ -79,11 +79,12 @@ table > thead > tr > th {
 table > tbody > td {
   padding: 10px;
   text-align: center;
+  font-size: 14px
 }
 
 table > tfoot > td {
   background-color: #6d152b;
-  padding: 10px;
+  padding: 5px;
 }
 
 footer {
