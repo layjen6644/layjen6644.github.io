@@ -110,6 +110,7 @@ table > tfoot > tr > td {
   flex-direction: column;
   gap: 10px
 }
+
 footer {
   font-size: 12px;
   text-align: center;
