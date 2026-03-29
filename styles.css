@@ -103,10 +103,15 @@ table > tfoot > tr > td {
 /* contact form */
 .contact-form {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%
 }
 
 .contact-form .form-group {
   display: flex;
+  flex-direction: column;
+  gap: 10px
 }
 footer {
   font-size: 12px;
