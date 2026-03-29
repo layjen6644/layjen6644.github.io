@@ -111,6 +111,15 @@ table > tfoot > tr > td {
   gap: 10px
 }
 
+.contact-form input, .contact-form textarea {
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="submit"] {
+  transition: background-color 0.3s ease;
+}
+
+
 footer {
   font-size: 12px;
   text-align: center;
