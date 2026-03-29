@@ -40,6 +40,7 @@ nav > ul > li > a:hover {
 
 main {
   display: flex;
+  flex-direction: column;   /*I think this looks better */
 }
   
 main > section {
