@@ -3,7 +3,7 @@ html {
   background-color: #f7f3eb;
   font-family: Garamond, serif;
 }
-
+  
 header {
   text-align: center;
   font-size: 18px;
@@ -102,7 +102,8 @@ table > tfoot > tr > td {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 100%
+  width: 100%;
+  max-width: 100%;
 }
 
 .contact-form .form-group {
@@ -137,6 +138,44 @@ footer {
   color: #f7f3eb;
   border-radius: 5px;
 }
-  
-  
-  
+
+/* Responsive design with default being for a mobile phone */
+/* table */
+@media screen and (min-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  nav > ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  main > section {
+    flex: 1 1 30%;
+    margin: 20px;
+  }
+
+  .contact-form {
+    max-width: 500px;
+  }
+
+  nav > ul {
+    gap: 40px;
+  }
+}
