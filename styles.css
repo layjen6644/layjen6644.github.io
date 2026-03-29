@@ -21,6 +21,8 @@ header > h1 {   /* I want the text to sit closer to the top of the box */
 nav > ul {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  flex-direction: row;
 }
 
 nav > ul > li {
@@ -41,6 +43,7 @@ nav > ul > li > a:hover {
 main {
   display: flex;
   flex-direction: column;   /*I think this looks better */
+  gap: 20px;
 }
   
 main > section {
@@ -144,6 +147,7 @@ footer {
 @media screen and (min-width: 600px) {
   main {
     flex-direction: column;
+    gap: 20px;
   }
 
   nav > ul {
@@ -163,7 +167,8 @@ footer {
   main {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
   }
 
   main > section {
@@ -177,5 +182,8 @@ footer {
 
   nav > ul {
     gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
   }
 }
