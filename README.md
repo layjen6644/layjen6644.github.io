@@ -9,7 +9,6 @@
 
 ## Installation Instructions
 - 1. Clone the repository:
-```bash
 git clone https://github.com/layjen6644/layjen6644.github.io
 - 2. Open project folder
 - 3. Open index.html in web browser
