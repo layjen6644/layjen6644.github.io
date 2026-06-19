@@ -18,7 +18,7 @@
     <nav>
       <ul>
         <li><a href="#about" id="aboutLink">About</a></li>
-        <li><a href="#projects" id="projectsLink">Projects</a></li>
+        <li><a href="#projects" id="projectLink">Projects</a></li>
         <li><a href="#contact" id="contactLink">Contact</a></li>
       </ul>
     </nav>
@@ -99,21 +99,22 @@
   document.getElementById("greeting").innerText = "Hello, " + userName + "!";
   //Creating additional user interaction and messages
   var aboutMsg = "You selected the About section"
-  var projectsMsg = "You selected the Projects section"
+  var projectMsg = "You selected the Projects section"
   var contactMsg = "You selected the Contact section"
   //functions to display alerts
   function aboutAlert() {
     alert(aboutMsg);
   }
-  function projectsAlert() {
-    alert(projectsMsg);
+  function projectAlert() {
+    alert(projectMsg);
   }
   function contactAlert() {
     alert(contactMsg);
   }
+  console.log("Projects listener attached");
   //Adding event listeners
   document.getElementById("aboutLink").addEventListener("click", aboutAlert);
-  document.getElementById("projectsLink").addEventListener("click", projectsAlert);
+  document.getElementById("projectLink").addEventListener("click", projectAlert);
   document.getElementById("contactLink").addEventListener("click", contactAlert);
 </script>
 </body>
