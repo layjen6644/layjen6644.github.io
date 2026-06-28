@@ -57,6 +57,28 @@ main > section {
   transition: transform 0.3s ease;
 }
 
+#universityResources {
+  font-size: 16px;
+  padding: 5px;
+  margin: 30px;
+  background-color: #dec05f;
+  box-shadow: rgba(0,0,0,0.4) 5px 5px 9px;
+  color: #3b2f2f;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+#personalProjects {
+    font-size: 16px;
+  padding: 5px;
+  margin: 30px;
+  background-color: #dec05f;
+  box-shadow: rgba(0,0,0,0.4) 5px 5px 9px;
+  color: #3b2f2f;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
 section:hover {
   transform: scale(1.02);
 }
