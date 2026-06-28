@@ -205,3 +205,12 @@ footer {
     gap: 20px;
   }
 }
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+.dark-mod a {
+  color: #9ecbff;
+}
