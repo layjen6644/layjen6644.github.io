@@ -122,12 +122,13 @@
   //Conditional logic
   //Declaring variable to count rows for projects
   const projectRows = document.querySelectorAll("#projects tbody tr");
-  document.getElementById("personalProjects").style.display = "block";
   //if statement to determine what to display
-  if (projectRows.length >= 3) {
+  if (projectRows.length < 3) {
     document.getElementById("universityResources").style.display = "block";
+    document.getElementById("personalProjects").style.display = "block";
   } else {
     document.getElementById("universityResources").style.display = "none";
+    document.getElementById("personalProjects").style.display = "block";
   }
 
   //Skills array for about me section
