@@ -14,7 +14,7 @@
   <header>
     <!-- Dark mode toggle -->
     <label>
-      input type="checkbox" id="darkMode">
+      <input type="checkbox" id="darkMode">
       Dark Mode
     </label>
     <h1>Welcome to my Portfolio!</h1>
@@ -120,10 +120,10 @@
 
   //Conditional logic
   //Declaring variable to count rows for projects
-  var projectRows = document.querySelectorAll(#projects tbody tr");
+  var projectRows = document.querySelectorAll("#projects tbody tr");
   //if statement to determine what to display
   if (projectRows.length < 3) {
-    document.getElementById("univeristyResources").style.display = "block";
+    document.getElementById("universityResources").style.display = "block";
     document.getElementById("personalProjects").style.display = "block";
   } else {
     document.getElementById("universityResources").style.display = "none";
@@ -139,7 +139,7 @@
     const listItem = document.createElement('li');
     listItem.textContent = skills[i];
     skillsList.appendChild(listItem);
-
+  }
   //Dark mode toggle
   var darkToggle = document.getElementById("darkMode");
   //Add event listener
