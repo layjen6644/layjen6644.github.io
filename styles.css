@@ -204,10 +204,10 @@ footer {
 }
 
 /* Dark Mode */
-.dark-mode {
+body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
-.dark-mod a {
+.dark-mode a {
   color: #9ecbff;
 }
