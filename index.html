@@ -49,6 +49,7 @@
         <a href="https://www.layjen6644.github.io/">My GitHub Project</a>
       </p>
     </div>
+  </section>
   <section>
     <h2 id="projects">Projects</h2>
     <p></p>
@@ -120,14 +121,13 @@
 
   //Conditional logic
   //Declaring variable to count rows for projects
-  var projectRows = document.querySelectorAll("#projects tbody tr");
+  const projectRows = document.querySelectorAll("#projects tbody tr");
+  document.getElementById("personalProjects").style.display = "block";
   //if statement to determine what to display
-  if (projectRows.length < 3) {
+  if (projectRows.length >= 3) {
     document.getElementById("universityResources").style.display = "block";
-    document.getElementById("personalProjects").style.display = "block";
   } else {
     document.getElementById("universityResources").style.display = "none";
-    document.getElementById("personalProjects").style.display = "none";
   }
 
   //Skills array for about me section
@@ -148,10 +148,10 @@
   });
 
  //Submit button
- var name = document.getElementById("name").value;
- alert("Thank you, " + name + ", your message has been sent.");
  document.getElementById("submitButton").addEventListener("click", function(event) {
    event.preventDefault();
+   var name = document.getElementById("name").value;
+   alert("Thank you, " + name + ", your message has been sent.");
  });
 </script>
 </body>
