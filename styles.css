@@ -148,12 +148,12 @@ table > tfoot > tr > td {
 }
 /*loading message*/
 #loadMessage {
-  margin-top: 20px;
-  padding: 15px;
+  margin-top: 10px;
+  padding: 10px;
   background-color: #fff3cd;
-  border: 2px solid #ffc107;
+  border: 2px solid #6d152b;
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   front-weight: bold;
 }
@@ -161,7 +161,7 @@ table > tfoot > tr > td {
 /*message sent*/
 .messageConfirm {
   background-color: #d4edda;
-  border-color: #28a745;
+  border-color: #6d152b;
   color: #155724;
 }
 
