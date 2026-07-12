@@ -141,6 +141,19 @@
     listItem.textContent = skills[i];
     skillsList.appendChild(listItem);
   }
+  
+  //new project message
+  var projectSection = document.getElementById("projects");
+  var newPar = document.createElement("p");
+  newPar.textContent = "I am currently working on expanding my portfolio with JavaScript.";
+  projectSection.parentElement.appendChild(newPar);
+
+  //modifying existing elements
+  var aboutHead = document.getElementById("about");
+  aboutHead.style.fontSize = "2.5rem";
+  var contactHead = document.querySelector("#contact");
+  contactHead.innerHTML = "Contact Me";
+  
   //Dark mode toggle
   var darkToggle = document.getElementById("darkMode");
   //Add event listener
@@ -148,11 +161,19 @@
     document.body.classList.toggle("dark-mode");
   });
 
- //Submit button
+ //Submit button --- UPDATING with delayed confirmation
  document.getElementById("submitButton").addEventListener("click", function(event) {
    event.preventDefault();
    var name = document.getElementById("name").value;
-   alert("Thank you, " + name + ", your message has been sent.");
+   //loading message
+   var loadMessage = document.createElement("p");
+   loadMessage.id = "loadMessage";
+   loadMessage.textContent = "Sending message...";
+   document.querySelector(".contact-form").appendChild(loadMessage);
+   //confirmation message
+   setTimeout(function() {
+     loadMessage.textContent = "Message sent successfully! Thank you, " + name + "."; 
+   } 3000);
  });
 </script>
 </body>
