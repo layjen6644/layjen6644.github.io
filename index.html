@@ -166,13 +166,14 @@
    event.preventDefault();
    var name = document.getElementById("name").value;
    //loading message
-   var loadMessage = document.createElement("p");
+   var loadMessage = document.createElement("div");
    loadMessage.id = "loadMessage";
    loadMessage.textContent = "Sending message...";
    document.querySelector(".contact-form").appendChild(loadMessage);
    //confirmation message
    setTimeout(function() {
      loadMessage.textContent = "Message sent successfully! Thank you, " + name + "."; 
+     loadMessage.classList.add("messageConfirm");
    }, 3000);
  });
 </script>
