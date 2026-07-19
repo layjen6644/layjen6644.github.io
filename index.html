@@ -163,7 +163,7 @@
   //checks saved mode when page loads
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark-mode");
-    darkToggle.checked = true
+    darkToggle.checked = true;
   }
   
   //Add event listener and save preference
@@ -173,7 +173,7 @@
       localStorage.setItem("darkMode", "enabled");
     } else {
       document.body.classList.remove("dark-mode");
-      localStorage.setItem("dark-mode", "disabled");
+      localStorage.setItem("darkMode", "disabled");
     }
   });
 
