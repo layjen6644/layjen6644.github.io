@@ -6,6 +6,10 @@
 ## Technologies Used
 - HTML5
 - CSS3
+- JavaScript
+
+## Libraries
+- None
 
 ## Installation Instructions
 - 1. Clone the repository:
