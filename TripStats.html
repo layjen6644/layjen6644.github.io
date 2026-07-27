@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <!-- 
+        Author: Layla Jenkins
+        Date: 07/26/2026
+        Purpose: Final exam, demonstrating everything we learned: Getting user input, using calculations and javascript, storing with cookies and sessionStorate, displaying results
+        -->
+        <meta charset="utf-8"/>
+        <meta id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>Trip Stats Calculator</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="TripCalculator.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>layjen6644, Trip Stats Calculator</h1>
+        </header>
+        <form id="tripForm">
+            <label for="tripName">Trip Name:</label>
+            <input type="text" id="tripName" name="tripName">
+            <br>
+            <label for="startMileage">Starting Mileage:</label>
+            <input type="text" id="startMileage" name="startMileage">
+            <br>
+            <label for="endMileage">Ending Mileage:</label>
+            <input type="text" id="endMileage" name="endMileage">
+            <br>
+            <label for="gallonsUsed">Gallons of Gas Used:</label>
+            <input type="text" id="gallonsUsed" name="gallonsUsed">
+            <br>
+            <button type="submit">Get Trip Summary</button>
+        </form>
+    </body>
+</html>
