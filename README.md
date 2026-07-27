@@ -11,6 +11,9 @@
 ## Libraries
 - None
 
+## Dependencies
+- None
+
 ## Installation Instructions
 - 1. Clone the repository:
 git clone https://github.com/layjen6644/layjen6644.github.io
