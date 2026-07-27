@@ -65,19 +65,11 @@
           <th>Project Name</th>
           <th>Description</th>
           <th>Image</th>
+          <th>Repository</th>
         </tr>
       </thead>
-      <tbody>
-        <tr>
-          <td>Project A</td>
-          <td>Placeholder</td>
-          <td><img src="1.png" alt="Project A" width="100"></td>
-        </tr>
-        <tr>
-          <td>Project B</td>
-          <td>Placeholder</td>
-          <td><img src="2.png" alt="Project A" width="100"></td>
-        </tr>
+      <tbody id="projectTable">
+      
       </tbody>
       <tfoot>
         <tr>
@@ -123,6 +115,70 @@
 </div>
   
 <script>
+  //project objects
+  const project1 = {
+    title: "Portfolio Website",
+    summary: "A responsive portfolio of my coursework using HTML, CSS, and JavaScript",
+    image: "1.png",
+    repository: "https://github.com/layjen6644/layjen6644.github.io"
+  };
+  const project2 = {
+    title: "Trip stats",
+    summary: "Calculates total miles traveled and MPG while storing trip info",
+    image: "2.png",
+    repository: "https://github.com/layjen6644/layjen6644.github.io"
+  };
+  const project3 = {
+    title: "Form Validator",
+    summary: "Demonstrating validating user input",
+    image: "3.png",
+    repository: "https://github.com/layjen6644/layjen6644.github.io"
+  };
+
+  //array of project objects
+  const projects = [project1, project2, project3];
+
+  //store and parse info
+  //checks if info exists in sessionStorage
+  let storedProjects = sessionStorage.getItem("projects");
+  //if none, save array
+  if (!storedProjects) {
+    sessionStorage.setItem("projects", JSON.stringify(projects));
+    storedProjects = sessionStorage.getItem("projects");
+  }
+
+  //convert string back into array
+  const projectArray = JSON.parse(storedProjects);
+
+ //body table
+  const projectBody = document.getElementById("projectTable"0;
+
+  //loop project array
+  projectArray.forEach(function(project) {
+    const row = document.createElement("tr");
+    const titleCell = document.createElement("td");
+    titleCell.textContent = project.title;
+    const summaryCell = document.createElement("td");
+    summaryCell.textContent = project.summary;
+    const imageCell = document.createElement("td");
+    const image = document.createElement("img");
+    img.src = project.image;
+    img.alt = project.title;
+    imag.width = 100;
+    imageCell.appendChild(image);
+    const repoCell = document.createElement("td");
+    const link = coument.createElement("a");
+    link.href = project.repository;
+    link.textContent = "Repository";;
+    link.target = "_blank";
+    repoCell.appendChild(link);
+    row.appendChild(titleCell);
+    row.appendChild(summaryCell);
+    row.appendChild(imageCell);
+    row.appendChild(repoCell);
+    projectBody.appendChild(row);
+  });
+  
   //Conditional logic
   //Declaring variable to count rows for projects
   const projectRows = document.querySelectorAll("#projects tbody tr");
@@ -133,7 +189,7 @@
   } else {
     document.getElementById("universityResources").style.display = "none";
     document.getElementById("personalProjects").style.display = "block";
-  }
+  };
 
   //Skills array for about me section
   //declaring array variable
@@ -144,7 +200,7 @@
     const listItem = document.createElement('li');
     listItem.textContent = skills[i];
     skillsList.appendChild(listItem);
-  }
+  };
   
   //new project message
   var projectSection = document.getElementById("projects");
@@ -164,7 +220,7 @@
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark-mode");
     darkToggle.checked = true;
-  }
+  };
   
   //Add event listener and save preference
   darkToggle.addEventListener("change", function() {
