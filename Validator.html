@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 
+        Author: Layla Jenkins
+        Date: 07/26/2026
+        Purpose: demonstrating how to combine javascript libraries for client-side validation
+        -->
+        <meta charset="utf-8"/>
+        <meta id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>Form Validator</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/validator@13.11.0/validator.min.js"></script>
+        <script src="FormValidation.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>layjen6644, Form Validator</h1>
+        </header>
+        <form id="signUpForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span id="emailError" style="color:red;"></span>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <span id="passwordError" style="color:red;"></span>
+            <br>
+            <label for="website">Website URL:</label>
+            <input type="text" id="website" name="website">
+            <span id="websiteError" style="color:red;"></span>
+            <br>
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age">
+            <span id="ageError" style="color:red;"></span>
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </body>
+</html>
