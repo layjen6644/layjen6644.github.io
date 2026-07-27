@@ -73,7 +73,7 @@
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="3"></td>
+          <td colspan="4"></td>
         </tr>
       </tfoot>
     </table>
@@ -151,7 +151,7 @@
   const projectArray = JSON.parse(storedProjects);
 
  //body table
-  const projectBody = document.getElementById("projectTable"0;
+  const projectBody = document.getElementById("projectTable");
 
   //loop project array
   projectArray.forEach(function(project) {
@@ -162,14 +162,14 @@
     summaryCell.textContent = project.summary;
     const imageCell = document.createElement("td");
     const image = document.createElement("img");
-    img.src = project.image;
-    img.alt = project.title;
-    imag.width = 100;
+    image.src = project.image;
+    image.alt = project.title;
+    image.width = 100;
     imageCell.appendChild(image);
     const repoCell = document.createElement("td");
-    const link = coument.createElement("a");
+    const link = document.createElement("a");
     link.href = project.repository;
-    link.textContent = "Repository";;
+    link.textContent = "Repository";
     link.target = "_blank";
     repoCell.appendChild(link);
     row.appendChild(titleCell);
